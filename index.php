@@ -25,7 +25,7 @@ Hello Openshift
 
 <?php
  $ip =  getRealUserIp();
- echo "Visiting from IP: $ip using $browser['browser']";
+ echo "Visiting from IP: $ip using ".$browser['browser'];
 ?>
              
 </body>
